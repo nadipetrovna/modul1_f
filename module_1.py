@@ -13,10 +13,10 @@ for j in grades:
         count+=i
     avg_b.append(count/b)
     ind = ind + 1
-Student_avg_b = {}
+student_avg_b = {}
 ind_n=0
 for i in avg_b:
-    Student_avg_b.update({str(students_l[ind_n]):i})
+    student_avg_b.update({str(students_l[ind_n]):i})
     ind_n=ind_n+1
-print(Student_avg_b)
+print(student_avg_b)
 
